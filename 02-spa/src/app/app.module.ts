@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroeComponent } from './heroe/heroe.component';
+import { SearchComponent } from './search/search.component';
+import { HeroeTarjetaComponent } from './heroe-tarjeta/heroe-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { HeroeComponent } from './heroe/heroe.component';
     HomeComponent,
     AboutComponent,
     HeroesComponent,
-    HeroeComponent
+    HeroeComponent,
+    SearchComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
